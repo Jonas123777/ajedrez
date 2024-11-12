@@ -1,0 +1,53 @@
+.tablero {
+
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 0%;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.casilla {
+
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.662);
+}
+
+.casillaq {
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.icono {
+
+    font-size: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.arriba {
+
+    text-align: center;
+}
+
+.arri {
+
+    display: grid;
+    row-gap: 83px;
+    margin-left: 350px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.aba {
+
+    display: grid;
+    row-gap: 83px;
+    margin-left: 1200px;
+    margin-top: -780px;
+    position: absolute;
+}
